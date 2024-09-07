@@ -19,5 +19,5 @@ jobs:
       with:
         node-version: 20.
     - run: npm install
-    - run: working-directory: ./allbooks/allbooks-aula-01
+    working-directory: ./allbooks/allbooks-aula-01
     - run: npm test
