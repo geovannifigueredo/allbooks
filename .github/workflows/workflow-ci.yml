@@ -10,6 +10,10 @@ on:
 jobs:
   testes:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./allbooks/allbooks-aula-01
+
 
     steps:
     - uses: actions/checkout@v4
